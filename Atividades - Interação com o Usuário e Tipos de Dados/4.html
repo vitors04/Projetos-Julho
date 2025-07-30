@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu primeiro projeto JavaScript</title>
+</head>
+<body>
+  <h1>Meu primeiro projeto JavaScript</h1>
+  <br>
+  <script>
+    let nome = prompt("Qual é o seu nome?");
+    let idade = prompt("Quantos anos você tem?");
+    let anoAtual = new Date().getFullYear();
+    let anoNascimento = anoAtual - parseInt(idade);
+    document.write("Olá, " + nome + "!<br>");
+    document.write("Você nasceu em " + anoNascimento + ".");
+  </script>
+</body>
+</html>
